@@ -1,0 +1,153 @@
+:root {
+  --verde: rgb(42, 185, 147);
+  --dark: rgb(4, 15, 12);
+  --gray: rgb(205, 223, 218);
+  --dark-gray: rgb(173, 209, 199);
+  --white: rgb(237, 253, 249);
+}
+
+.cv__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+}
+
+/* TOP */
+
+.cv__top {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  vertical-align: middle;
+}
+
+.cv__img {
+  border-radius: 50%;
+  width: 17rem;
+  height: 17rem;
+  object-fit: cover;
+  margin-top: 4rem;
+}
+
+.cv__top-txt {
+  margin-top: 6rem;
+  width: 63%;
+}
+
+.cv__nombre {
+  font-size: 4rem;
+  color: var(--verde);
+  margin: 0.1rem 0;
+}
+
+.cv__puesto {
+  font-size: 1.5rem;
+  margin: 0rem 0;
+  color: var(--dark);
+}
+/* BOTTOM */
+
+.cv__bottom {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* LEFT */
+.cv__left {
+  width: 25%;
+  margin-left: 4rem;
+}
+
+.cv__subtitle {
+  font-size: 1.5rem;
+  margin-bottom: -0.5rem;
+}
+
+.cv__about {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.cv__contacto-item {
+  margin-left: -3rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: -1.5rem;
+}
+
+i {
+  margin-top: auto;
+  padding: 0.2rem;
+  border-radius: 50%;
+  color: var(--white);
+  font-size: 1.5rem;
+  background: var(--verde);
+}
+
+.cv__contacto-txt {
+  font-size: 0.8rem;
+  line-height: 0;
+  margin-left: 0.5rem;
+  padding-top: -1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--dark-gray);
+}
+
+/* RIGHT */
+.cv__right {
+  width: 60%;
+  margin-right: 4rem;
+}
+
+.cv__edu-item {
+  padding-bottom: 0;
+}
+
+.cv__edu-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--verde);
+}
+
+.cv__edu-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 0;
+  height: 3rem;
+}
+
+.cv__edu-inst {
+  margin: 0;
+  font-size: 0.9rem;
+  padding-top: 1rem;
+}
+
+.cv__edu-fecha {
+  margin: 0;
+  font-size: 0.9rem;
+  padding-top: 1rem;
+}
+
+.cv__skills-lista {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 0.5rem 0;
+}
+
+.cv__skills-item {
+  background: var(--gray);
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
