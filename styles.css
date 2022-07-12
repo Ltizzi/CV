@@ -27,10 +27,11 @@
 
 .cv__img {
   border-radius: 50%;
-  width: 17rem;
-  height: 17rem;
+  width: 20rem;
+  height: 20rem;
   object-fit: cover;
   margin-top: 4rem;
+  margin-left: -2rem;
 }
 
 .cv__top-txt {
@@ -39,13 +40,13 @@
 }
 
 .cv__nombre {
-  font-size: 4rem;
+  font-size: 5rem;
   color: var(--verde);
   margin: 0.1rem 0;
 }
 
 .cv__puesto {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0rem 0;
   color: var(--dark);
 }
@@ -69,7 +70,7 @@
 }
 
 .cv__about {
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: justify;
 }
 
@@ -96,8 +97,8 @@ i {
   line-height: 0;
   margin-left: 0.5rem;
   padding-top: -1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--dark-gray);
+  padding-bottom: 0.7rem;
+  border-bottom: 4px solid var(--dark-gray);
 }
 
 /* RIGHT */
